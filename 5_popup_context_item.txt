@@ -35,6 +35,7 @@ activity_main.xml file (Already Build)
 </RelativeLayout>
 
 
+
 ----------------------------------------------------------------------------------------------------------------------------------
 activity_main.java  file (Already Build)
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -130,9 +131,8 @@ public class MainActivity extends AppCompatActivity {
 
 --------------------------------------------------------------------------------------------------------------------------
 
-popup_dialog.xml (build your own in layout)
+popup_dialog.xml (build your own in  Res > layout)
 --------------------------------------------------------------------------------------------------------------------------
-
 
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -155,9 +155,10 @@ popup_dialog.xml (build your own in layout)
         android:text="Close"/>
 </LinearLayout>
 
+
 --------------------------------------------------------------------------------------------------------------------------
 
-option_menu.xml file ( build by your own in menu )
+option_menu.xml file ( build by your own in  res > menu )
 --------------------------------------------------------------------------------------------------------------------------
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -171,7 +172,7 @@ option_menu.xml file ( build by your own in menu )
 </menu>
 
 --------------------------------------------------------------------------------------------------------------------------
-context_menu.xml file ( build by your own in menu )
+context_menu.xml file ( build by your own in Res > menu )
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -185,5 +186,6 @@ context_menu.xml file ( build by your own in menu )
         android:id="@+id/context_item_2"
         android:title="Context Item 2"/>
 </menu>
+
 
 
